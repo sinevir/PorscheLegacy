@@ -167,6 +167,17 @@ html, body {
   }
 }
 
+@media (max-width: 500px) {
+  .hero-content h1 {
+    font-size: 46px;      
+    letter-spacing: 3px;  
+  }
+
+  .hero-content p {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+}
 
 body {
   margin: 0;
