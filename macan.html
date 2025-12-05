@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porsche Macan</title>
+  <link rel="icon" type="image/png" href="logo png.png">
+  <link rel="stylesheet" href="model-page.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-bar">
+      <div class="burger-menu" id="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="contact.html">KONTAKTY</a>
+      <a href="index.html">DOMŮ</a>
+      <a href="models.html">MODELY</a>
+      <a href="history.html">HISTORIE</a>
+    </div>
+      <ul class="nav-links-left">
+        <li><a href="contact.html">KONTAKTY</a></li>
+        <li><a href="index.html">DOMŮ</a></li>
+      </ul>
+
+      <div class="header-logo">
+        <img src="logo png.png" alt="Porsche Culture Logo">
+      </div>
+
+      <ul class="nav-links-right">
+        <li><a href="models.html">MODELY</a></li>
+        <li><a href="history.html">HISTORIE</a></li>
+      </ul>
+
+    </nav>
+  </header>
+  <section class="model-hero model-hero-bg" style="background-image: url('macan.jpg');">
+    <div class="model-hero-content">
+      <h1 class="model-hero-title">Macan</h1>
+      <p class="model-hero-subtitle">
+        Kompaktní SUV s duší čistokrevného sportovního vozu.
+      </p>
+    </div>
+  </section>
+  <section class="model-content">
+    <p class="model-description">
+      Porsche Macan spojuje každodenní použitelnost s autentickým zážitkem z jízdy.
+      Nabízí vysoký výkon, precizní řízení a typickou DNA značky Porsche – v kompaktním
+      SUV formátu, který se cítí doma jak ve městě, tak na horských silnicích.
+    </p>
+
+    <div class="model-specs">
+      <div class="spec-card">
+        <div class="spec-label">Výkon</div>
+        <div class="spec-value">do 280 kW (380 k)</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-label">Zrychlení 0–100 km/h</div>
+        <div class="spec-value">od 4,8 s</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-label">Max. rychlost</div>
+        <div class="spec-value">až 270 km/h</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-label">Pohon</div>
+        <div class="spec-value">Pohon všech kol (PTM)</div>
+      </div>
+    </div>
+
+    <a href="models.html" class="back-btn">Zpět na modely</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 Porsche Culture – studentský projekt UHK</p>
+
+    <div class="footer-links">
+      <a href="https://www.porsche.com" target="_blank" rel="noopener noreferrer">Oficiální web Porsche</a>
+      <a href="https://www.instagram.com/porsche" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.youtube.com/user/Porsche" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="https://twitter.com/Porsche" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </div>
+
+    <p class="footer-disclaimer">
+      Tento web byl vytvořen jako studentský projekt. Obsah je smyšlený a nepředstavuje
+      skutečnou nabídku značky Porsche.
+    </p>
+  </footer>
+
+</body>
+<script>
+  const burger = document.getElementById("burger");
+  const mobileNav = document.getElementById("mobileNav");
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("open");
+    mobileNav.classList.toggle("open");
+  });
+</script>
+</html>
