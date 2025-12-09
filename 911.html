@@ -1,101 +1,105 @@
 <!DOCTYPE html>
 <html lang="cs">
-<head>
-  <link rel="icon" type="image/png" href="logo png.png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Porsche 911</title>
-  <link rel="stylesheet" href="model-page.css">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300&display=swap" rel="stylesheet">
-</head>
-<header class="site-header">
-  <nav class="nav-bar">
-    <div class="burger-menu" id="burger">
-      <span></span>
-      <span></span>
-      <span></span>
+  <head>
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porsche 911</title>
+    <link rel="stylesheet" href="./css/model-page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header class="site-header">
+    <nav class="nav-bar">
+      <div class="burger-menu" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="contact.html">KONTAKTY</a>
+        <a href="index.html">DOMŮ</a>
+        <a href="models.html">MODELY</a>
+        <a href="history.html">HISTORIE</a>
+      </div>
+      <ul class="nav-links-left">
+        <li><a href="contact.html">KONTAKTY</a></li>
+        <li><a href="index.html">DOMŮ</a></li>
+      </ul>
+
+      <div class="header-logo">
+        <img src="./img/logo.png" alt="Porsche Culture Logo" />
+      </div>
+
+      <ul class="nav-links-right">
+        <li><a href="models.html">MODELY</a></li>
+        <li><a href="history.html">HISTORIE</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <section
+      class="model-hero model-hero-bg"
+      style="background-image: url(./img/911.jpg)"
+    >
+      <div class="model-hero-content">
+        <h1 class="model-hero-title">911</h1>
+        <p class="model-hero-subtitle">Ikona výkonu a nadčasového designu.</p>
+      </div>
+    </section>
+
+    <section class="model-content">
+      <p class="model-description">
+        Porsche 911 je srdcem značky – kombinace závodních genů, precizního
+        inženýrství a čisté radosti z jízdy. Každá generace posouvá hranice
+        techniky, ale zachovává charakter, který je okamžitě rozeznatelný.
+      </p>
+
+      <div class="model-specs">
+        <div class="spec-card">
+          <div class="spec-label">Výkon</div>
+          <div class="spec-value">do 478 kW (650 k)</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-label">Zrychlení 0–100 km/h</div>
+          <div class="spec-value">od 2,7 s</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-label">Max. rychlost</div>
+          <div class="spec-value">až 330 km/h</div>
+        </div>
+        <div class="spec-card">
+          <div class="spec-label">Pohon</div>
+          <div class="spec-value">Zadní / 4×4 podle verze</div>
+        </div>
+      </div>
+
+      <a href="models.html" class="back-btn">Zpět na modely</a>
+    </section>
+  </body>
+  <footer class="site-footer">
+    <p>© 2025 Porsche Culture – studentský projekt UHK</p>
+
+    <div class="footer-links">
+      <a href="https://www.porsche.com" target="_blank">Oficiální web</a>
+      <a href="https://www.instagram.com/porsche" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/user/Porsche" target="_blank">YouTube</a>
+      <a href="https://twitter.com/Porsche" target="_blank">X.com (Twitter)</a>
     </div>
-    <div class="mobile-nav" id="mobileNav">
-      <a href="contact.html">KONTAKTY</a>
-      <a href="index.html">DOMŮ</a>
-      <a href="models.html">MODELY</a>
-      <a href="history.html">HISTORIE</a>
-    </div>
-    <ul class="nav-links-left">
-      <li><a href="contact.html">KONTAKTY</a></li>
-      <li><a href="index.html">DOMŮ</a></li>
-    </ul>
 
-    <div class="header-logo">
-      <img src="logo png.png" alt="Porsche Culture Logo">
-    </div>
-
-    <ul class="nav-links-right">
-      <li><a href="models.html">MODELY</a></li>
-      <li><a href="history.html">HISTORIE</a></li>
-    </ul>
-
-  </nav>
-</header>
-<body>
-
-  <section class="model-hero model-hero-bg" style="background-image: url('911.jpg');">
-    <div class="model-hero-content">
-      <h1 class="model-hero-title">911</h1>
-      <p class="model-hero-subtitle">Ikona výkonu a nadčasového designu.</p>
-    </div>
-  </section>
-
-  <section class="model-content">
-    <p class="model-description">
-      Porsche 911 je srdcem značky – kombinace závodních genů, precizního inženýrství a čisté radosti z jízdy.
-      Každá generace posouvá hranice techniky, ale zachovává charakter, který je okamžitě rozeznatelný.
+    <p class="footer-disclaimer">
+      Tento web byl vytvořen jako studentský projekt. Obsah je smyšlený a
+      nepředstavuje skutečnou nabídku značky Porsche.
     </p>
-
-    <div class="model-specs">
-      <div class="spec-card">
-        <div class="spec-label">Výkon</div>
-        <div class="spec-value">do 478 kW (650 k)</div>
-      </div>
-      <div class="spec-card">
-        <div class="spec-label">Zrychlení 0–100 km/h</div>
-        <div class="spec-value">od 2,7 s</div>
-      </div>
-      <div class="spec-card">
-        <div class="spec-label">Max. rychlost</div>
-        <div class="spec-value">až 330 km/h</div>
-      </div>
-      <div class="spec-card">
-        <div class="spec-label">Pohon</div>
-        <div class="spec-value">Zadní / 4×4 podle verze</div>
-      </div>
-    </div>
-
-    <a href="models.html" class="back-btn">Zpět na modely</a>
-  </section>
-
-</body>
-<footer class="site-footer">
-  <p>© 2025 Porsche Culture – studentský projekt UHK</p>
-
-  <div class="footer-links">
-    <a href="https://www.porsche.com" target="_blank" rel="noopener noreferrer">Oficiální web Porsche</a>
-    <a href="https://www.instagram.com/porsche" target="_blank" rel="noopener noreferrer">Instagram</a>
-    <a href="https://www.youtube.com/user/Porsche" target="_blank" rel="noopener noreferrer">YouTube</a>
-    <a href="https://twitter.com/Porsche" target="_blank" rel="noopener noreferrer">Twitter</a>
-  </div>
-
-  <p class="footer-disclaimer">
-    Tento web byl vytvořen jako studentský projekt. Obsah je smyšlený a nepředstavuje
-    skutečnou nabídku značky Porsche.
-  </p>
-</footer>
-<script>
-  const burger = document.getElementById("burger");
-  const mobileNav = document.getElementById("mobileNav");
-  burger.addEventListener("click", () => {
-    burger.classList.toggle("open");
-    mobileNav.classList.toggle("open");
-  });
-</script>
+  </footer>
+  <script>
+    const burger = document.getElementById('burger');
+    const mobileNav = document.getElementById('mobileNav');
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('open');
+      mobileNav.classList.toggle('open');
+    });
+  </script>
 </html>
