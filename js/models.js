@@ -1,26 +1,19 @@
 
-    const cards = document.querySelectorAll('.model-card');
+const cards = document.querySelectorAll('.model-card');
 
-    cards.forEach((card) => {
-      const image = card.getAttribute('data-image');
-      card.style.setProperty('--bg-image', `url(${image})`);
-      card.addEventListener('mouseenter', () => {
-        card.style.setProperty('--bg-image', `url(${image})`);
-        card.style.setProperty('--hovering', 'true');
-      });
-      card.addEventListener('mouseleave', () => {
-        card.style.setProperty('--hovering', 'false');
-      });
-      card.querySelector('::after');
-      card.style.setProperty('--image', `url(${image})`);
-    });
+cards.forEach((card) => {
+  const image = card.dataset.image;
 
-    const style = document.createElement('style');
-    style.innerHTML = `
-    .model-card::after {
-      background-image: var(--bg-image);
+  // створюємо стиль для псевдоелемента ::after
+  const style = document.createElement('style');
+  style.innerHTML = `
+    .model-card[data-image="${image}"]::after {
+      background-image: url(${image});
     }
   `;
+  document.head.appendChild(style);
+});
+
     document.head.appendChild(style);
     
     const burger = document.getElementById('burger');

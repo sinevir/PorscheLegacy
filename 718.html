@@ -1,110 +1,123 @@
 <!DOCTYPE html>
 <html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" type="image/png" href="logo png.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Porsche 718</title>
-  <link rel="stylesheet" href="model-page.css">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300&display=swap" rel="stylesheet">
-</head>
-<header class="site-header">
-  <nav class="nav-bar">
-    <div class="burger-menu" id="burger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="mobile-nav" id="mobileNav">
-      <a href="contact.html">KONTAKTY</a>
-      <a href="index.html">DOMŮ</a>
-      <a href="models.html">MODELY</a>
-      <a href="history.html">HISTORIE</a>
-    </div>
-    <ul class="nav-links-left">
-      <li><a href="contact.html">KONTAKTY</a></li>
-      <li><a href="index.html">DOMŮ</a></li>
-    </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porsche 718</title>
+    <link rel="stylesheet" href="./css/model-page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-bar">
+        <div class="burger-menu" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+          <a href="index.html">HLAVNÍ STRÁNKA</a>
+          <a href="models.html">MODELY</a>
+          <a href="history.html">HISTORIE</a>
+          <a href="contact.html">KONTAKTY</a>
+        </div>
+        <ul class="nav-links-left">
+          <li><a href="index.html">HLAVNÍ STRÁNKA</a></li>
+          <li><a href="models.html">MODELY</a></li>
+        </ul>
 
-    <div class="header-logo">
-      <img src="logo png.png" alt="Porsche Culture Logo">
-    </div>
+        <div class="header-logo">
+          <img src="./img/logo.png" alt="Porsche Culture Logo" />
+        </div>
 
-    <ul class="nav-links-right">
-      <li><a href="models.html">MODELY</a></li>
-      <li><a href="history.html">HISTORIE</a></li>
-    </ul>
+        <ul class="nav-links-right">
+          <li><a href="history.html">HISTORIE</a></li>
+          <li><a href="contact.html">KONTAKTY</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="model-hero model-hero-bg"
+        style="background-image: url('./img/718.jpg')"
+      >
+        <div class="model-hero-content">
+          <h1 class="model-hero-title">718</h1>
+          <p class="model-hero-subtitle">
+            Čistý sportovní zážitek v kompaktní podobě.
+          </p>
+        </div>
+      </section>
 
-  </nav>
-</header>
-<body>
-  <section class="model-hero model-hero-bg" style="background-image: url('718.jpg');">
-    <div class="model-hero-content">
-      <h1 class="model-hero-title">718</h1>
-      <p class="model-hero-subtitle">Čistý sportovní zážitek v kompaktní podobě.</p>
-    </div>
-  </section>
+      <section class="model-content">
+        <p class="model-description">
+          Porsche 718 přináší ryzí sportovní charakter – lehká konstrukce,
+          přesné řízení a zážitek z jízdy, který je přímý a intenzivní. Modely
+          Cayman a Boxster navazují na tradici ikonických sportovních vozů s
+          motorem uprostřed a poskytují perfektní rovnováhu, agilitu a dynamiku
+          pro každého, kdo miluje zatáčky.
+        </p>
 
-  <section class="model-content">
+        <ul class="model-specs">
+          <li class="spec-card">
+            <p class="spec-label">Výkon</p>
+            <p class="spec-value">od 220 kW (300 k)</p>
+          </li>
+          <li class="spec-card">
+            <p class="spec-label">Zrychlení 0–100 km/h</p>
+            <p class="spec-value">od 4,9 s</p>
+          </li>
+          <li class="spec-card">
+            <p class="spec-label">Max. rychlost</p>
+            <p class="spec-value">až 275 km/h</p>
+          </li>
+          <li class="spec-card">
+            <p class="spec-label">Motor</p>
+            <p class="spec-value">Uprostřed — perfektní vyvážení</p>
+          </li>
+        </ul>
+        <a href="models.html" class="back-btn">Zpět na modely</a>
+      </section>
+    </main>
 
-    <p class="model-description">
-      Porsche 718 přináší ryzí sportovní charakter – lehká konstrukce, přesné řízení
-      a zážitek z jízdy, který je přímý a intenzivní. Modely Cayman a Boxster navazují
-      na tradici ikonických sportovních vozů s motorem uprostřed a poskytují perfektní
-      rovnováhu, agilitu a dynamiku pro každého, kdo miluje zatáčky.
-    </p>
+    <footer class="site-footer">
+      <p>© 2025 Porsche Culture – studentský projekt UHK</p>
 
-    <div class="model-specs">
-
-      <div class="spec-card">
-        <div class="spec-label">Výkon</div>
-        <div class="spec-value">od 220 kW (300 k)</div>
+      <div class="footer-links">
+        <a
+          href="https://www.porsche.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Oficiální web</a
+        >
+        <a
+          href="https://www.instagram.com/porsche"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+        <a
+          href="https://www.youtube.com/user/Porsche"
+          target="_blank"
+          rel="noopener noreferrer"
+          >YouTube</a
+        >
+        <a
+          href="https://twitter.com/Porsche"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X.com (Twitter)</a
+        >
       </div>
-
-      <div class="spec-card">
-        <div class="spec-label">Zrychlení 0–100 km/h</div>
-        <div class="spec-value">od 4,9 s</div>
-      </div>
-
-      <div class="spec-card">
-        <div class="spec-label">Max. rychlost</div>
-        <div class="spec-value">až 275 km/h</div>
-      </div>
-
-      <div class="spec-card">
-        <div class="spec-label">Motor</div>
-        <div class="spec-value">Uprostřed — perfektní vyvážení</div>
-      </div>
-
-    </div>
-
-    <a href="models.html" class="back-btn">Zpět na modely</a>
-
-  </section>
-
-</body>
-<footer class="site-footer">
-  <p>© 2025 Porsche Culture – studentský projekt UHK</p>
-
-  <div class="footer-links">
-    <a href="https://www.porsche.com" target="_blank" rel="noopener noreferrer">Oficiální web Porsche</a>
-    <a href="https://www.instagram.com/porsche" target="_blank" rel="noopener noreferrer">Instagram</a>
-    <a href="https://www.youtube.com/user/Porsche" target="_blank" rel="noopener noreferrer">YouTube</a>
-    <a href="https://twitter.com/Porsche" target="_blank" rel="noopener noreferrer">Twitter</a>
-  </div>
-
-  <p class="footer-disclaimer">
-    Tento web byl vytvořen jako studentský projekt. Obsah je smyšlený a nepředstavuje
-    skutečnou nabídku značky Porsche.
-  </p>
-</footer>
-<script>
-  const burger = document.getElementById("burger");
-  const mobileNav = document.getElementById("mobileNav");
-  burger.addEventListener("click", () => {
-    burger.classList.toggle("open");
-    mobileNav.classList.toggle("open");
-  });
-</script>
-
+      <p class="footer-disclaimer">
+        Tento web byl vytvořen jako studentský projekt. Obsah je smyšlený a
+        nepředstavuje skutečnou nabídku značky Porsche.
+      </p>
+    </footer>
+    <script src="./js/model-mobile.js"></script>
+  </body>
 </html>
